@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "balance": "$3,946.45",
+    "picture": "https://robohash.org/1?size=200x200",
+    "age": 23,
+    "name": "Bird Ramsey",
+    "gender": "male",
+    "company": "NIMON",
+    "email": "birdramsey@nimon.com"
+  },
+  {
+    "id": 1,
+    "balance": "$2,499.49",
+    "picture": "https://robohash.org/2?size=200x200",
+    "age": 31,
+    "name": "Lillian Burgess",
+    "gender": "female",
+    "company": "LUXURIA",
+    "email": "lillianburgess@luxuria.com"
+  },
+  {
+    "id": 2,
+    "balance": "$2,820.18",
+    "picture": "https://robohash.org/3?size=200x200",
+    "age": 34,
+    "name": "Kristie Cole",
+    "gender": "female",
+    "company": "QUADEEBO",
+    "email": "kristiecole@quadeebo.com"
+  },
+  {
+    "id": 3,
+    "balance": "$3,277.32",
+    "picture": "https://robohash.org/4?size=200x200",
+    "age": 30,
+    "name": "Leonor Cross",
+    "gender": "female",
+    "company": "GRONK",
+    "email": "leonorcross@gronk.com"
+  },
+  {
+    "id": 4,
+    "balance": "$1,972.47",
+    "picture": "https://robohash.org/5?size=200x200",
+    "age": 28,
+    "name": "Marsh Mccall",
+    "gender": "male",
+    "company": "ULTRIMAX",
+    "email": "marshmccall@ultrimax.com"
+  }
+]
