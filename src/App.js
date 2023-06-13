@@ -8,9 +8,11 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 
+const randomIndex = Math.floor(Math.random() * data.length);
+const randomUser = data[randomIndex];
 function App() {
-  const randomIndex = Math.floor(Math.random() * data.length);
-  const randomUser = data[randomIndex];
+  // const randomIndex = Math.floor(Math.random() * data.length);
+  // const randomUser = data[randomIndex];
   useEffect(() => {
     console.log(randomIndex);
     console.log(randomUser);
@@ -28,11 +30,11 @@ function App() {
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             id: {randomUser.id} <br />
+            name: {randomUser.name} <br />
             balance: {randomUser.balance}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             age: {randomUser.age} <br />
-            name: {randomUser.name} <br />
             gender: {randomUser.gender} <br />
             company: {randomUser.company} <br />
             email: {randomUser.email}
